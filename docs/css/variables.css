@@ -1,0 +1,10 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+   --cor-de-primary:#464646;
+   --cor-de-secundary:   #EAF2FD;
+   --cor-de-third: #FFFFFF;
+   --font-family-main: 'Raleway'
+}

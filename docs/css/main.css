@@ -1,0 +1,32 @@
+@import url("./variables.css");
+@import url("./reset.css");
+
+html{
+    font-size: 62.5%;
+    font-family: var(--font-family-main), sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: var(--font-family-main);
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+.tudo{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px 0 5px;
+    overflow: hidden;
+    min-width: 320px;
+}

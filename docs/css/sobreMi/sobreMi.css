@@ -1,0 +1,33 @@
+
+.about{
+    background-color: var(--cor-de-secundary);
+    padding: 16px;
+}
+
+.about__title{
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 25.83px;
+}
+
+.about__paragraph{
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 16.44px;
+}
+
+.about__signature{
+    width: 200px;
+}
+
+
+/* Tablet */
+@media screen and (min-width:768px){
+
+}
+
+/* Desktop */
+
+@media screen and (min-width:1024px){
+
+}
