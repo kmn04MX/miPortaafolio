@@ -167,6 +167,14 @@
     line-height: 1.15; /* 1 */
     margin: 0; /* 2 */
   }
+
+  input, textarea{
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+  }
   
   /**
    * Show the overflow in IE.
@@ -227,7 +235,13 @@
    */
   
   fieldset {
-    padding: 0.35em 0.75em 0.625em;
+
+    margin: 0;
+    padding: 0;
+	  border: 0;
+	  font-size: 100%;
+	  font: inherit;
+	  vertical-align: baseline;
   }
   
   /**

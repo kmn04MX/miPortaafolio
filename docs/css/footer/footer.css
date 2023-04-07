@@ -1,0 +1,33 @@
+
+.footer{
+    background-color: var(--cor-de-third);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    padding: 16px;
+}
+
+.footer__rodape{
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+
+.footer__rodape p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 18.78px;
+    color: var(--cor-de-primary);
+}
+
+@media screen and (min-width:768px){
+    
+}
+
+@media screen and (min-width:1024px){
+
+}

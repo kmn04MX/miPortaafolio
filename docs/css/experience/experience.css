@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     background-color: var();
+    padding: 16px;
 }
 
 .experience__section__title{
@@ -14,7 +15,7 @@
 
 .experiencie__box{
    /*  border: 1px solid #ccc9c9; */
-    background-color: var(--cor-de-secundary);
+    background-color: var(--cor-de-third);
     width: 100%;
     height: 420px;
     max-width: 320px;
@@ -81,6 +82,12 @@
 }
 .experience__links__item{
     margin: 0 15px 0 0;
+}
+
+
+.experience__links__item a{
+    color: var(--cor-de-fourth);
+    font-weight: bold;
 }
 
 
