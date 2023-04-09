@@ -1,7 +1,7 @@
 
 .about{
     background-color: var(--cor-de-secundary);
-    padding: 16px;
+    padding: 0 16px 0 16px;
 }
 
 .about__title{
@@ -23,11 +23,33 @@
 
 /* Tablet */
 @media screen and (min-width:768px){
-
+    .about{
+        padding: 0 32px 0 32px;
+    }
 }
 
 /* Desktop */
 
 @media screen and (min-width:1024px){
+    .about{
+        padding: 0;
+    }
+    .about__container{
+        padding-left: 100px;
+        padding-right: 100px; 
+        width: 100%;
+        max-width: 1400px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .about__title{
+        font-size: 3.2rem;
+    }
+
+    .about__paragraph{
+        font-size: 1.6rem;
+        width: 750px;
+    }
 
 }

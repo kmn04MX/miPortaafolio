@@ -7,8 +7,10 @@
 }
 
 .formcontato__contacto{
+  
     width: 100%;
     max-width: 350px;
+    
 }
 
 .formcontato--esquerda{
@@ -242,9 +244,37 @@
 }
 
   @media  screen and (min-width:768px) {
-      
+    .formcontato{
+      padding: 32px;
+    }
+    .formcontato__contacto{
+      max-width: 1024px;
+    }
   }
   
   @media screen and (min-width: 1024px){
-  
+
+    .formcontato__contacto{
+        padding-left: 100px;
+        padding-right: 100px; 
+        width: 100%;
+        max-width: 1400px;
+        box-sizing: border-box;
+        margin: 0 auto;
+
+       display: flex;
+       justify-content: space-around;
+     }
+
+    .formcontato--esquerda{
+      display: block;
+      width: 100%;
+      margin: auto 20px;
+      max-width: 400px;
+      
+    }
+    
+    .formcontato__img{
+      width: 100%;
+    }
   }

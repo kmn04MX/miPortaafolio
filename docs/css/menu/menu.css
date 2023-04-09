@@ -5,15 +5,17 @@
     width: 100%;
     height: 56px;
     background-color: var(--cor-de-fundo); */
+    padding: 0 16px 0 16px;
 }
 
 .menu__header{
     display: flex;
-    padding: 10px 0 0 16px;
+    margin-top: 16px;
+
 }
 
 .menu__title{
-    margin-left: 8px;
+    margin: auto 0;
     font-size: 1.6rem;
     color: var(--cor-de-primary);
 }
@@ -21,12 +23,12 @@
 .menu__logo{
     width: 25px;
     height: 25px;
-    margin: auto 0;
+    margin-right: 8px;
 }
 
 nav{
     display: flex;
-    padding: 16px 0 0 0;
+    
 }
 
 .menu__list{
@@ -35,17 +37,19 @@ nav{
 
 .menu__list__item{
     color: var(--cor-de-primary);
-}
-
-.menu__list__item__contato{
-    margin: 10px 8px 0 0;
-    font-size: 1.4rem;
-    color: var(--cor-de-primary);
+    font-size: 1.6rem;
 }
 
 .menu__list__item__icon{
-    margin: 7px 16px 0 0;
+    margin-top: 18px;
 }
+.menu__list__item__contato{
+    font-size: 1.4rem;
+    color: var(--cor-de-primary);
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
 
 .menu__icon{
     width: 20px;
@@ -53,13 +57,60 @@ nav{
 
 
 /*Tablet de 768px a 1023px*/
-@media screen and(min-width:768px) {
-    
+@media screen and (min-width:768px) {
+    .menu{
+        padding: 0 32px 0 32px;
+
+    }
 }
     
 
 /* Desktop 1024 en adelante */
+
 @media screen and (min-width: 1024px) {
+    .menu{
+        padding: 0 32px 0 32px;
+
+    }
+}
+@media screen and (min-width: 1024px) {
+    .menu{
+        padding-left: 100px;
+        padding-right: 100px; 
+        width: 100%;
+        max-width: 1400px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        
+    }
+    .menu__header{
+        margin-top: 16px;
+    }
+    .menu__logo{
+        margin: auto 8px;
+        margin-left: 0;
+    }
+
+    .menu__list__item__icon{
+        display: none;
+    }
+    nav{
+        width: 80%;
+        padding: 0;
+    }
+    .menu__list{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 32px;
+        
+    }
+
+    .menu__list__item__contato{
+        font-size: 1.6rem;
+        margin-top: 32px;
+        margin-right: 0;
+    }
     
-    
+
 }

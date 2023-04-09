@@ -26,7 +26,6 @@ a{
 .tudo{
     display: flex;
     flex-direction: column;
-    margin: 0 5px 0 5px;
     overflow: hidden;
     min-width: 320px;
 }
