@@ -44,6 +44,7 @@
     flex-direction: column;
     justify-content: flex-end;
     box-sizing: border-box;
+    
 }
 
 .formcontato__input{
@@ -58,12 +59,14 @@
     line-height: 18.78px;
     color: var(--cor-de-primary);
     border-radius: 7px;
+    background-color: var(--cor-de-third);
 }
 
 
 .formcontato__input::placeholder{
     visibility: hidden;
     color: #00000000;
+    
 }
 
 .formcontato__input:focus{
@@ -87,7 +90,7 @@
   top: 0.25rem;
   transition: all 0.25s;
   font-weight: bold;
-  color: var(--cor-de-fourth);
+  color:  var(--cor-de-fourth);
 }
 
 
@@ -115,6 +118,11 @@
   .formcontato__container__input--invalid .formcontato__label {
     color: var(--cor-warning);
   }
+  
+  .formcontato__container__input--invalid > .formcontato__input:not(:placeholder-shown) + .formcontato__label,
+  .formcontato__container__input--invalid > .formcontato__input:focus + .formcontato__label {
+    color: var(--cor-warning);
+}
   
   /* input-message-error */
   .formcontato__input__message__error {
@@ -210,7 +218,10 @@
     color: var(--cor-warning);
   }
 
-
+  .formcontato__container__textarea--invalid > .formcontato__textarea:not(:placeholder-shown) + .formcontato__label--textarea,
+  .formcontato__container__textarea--invalid > .formcontato__textarea:focus + .formcontato__label--textarea {
+    color: var(--cor-warning);
+}
   
   
   /* input-message-error */
@@ -218,7 +229,7 @@
     display: none;
   }
   /*   .input-container--invalid .input-message-error */
-  .formcontato__container__textarea--invalid .formcontato__input__message__error {
+  .formcontato__container__textarea--invalid .formcontato__textarea__message__error {
     color: var(--cor-warning);
     display: block;
     margin-top: 0.5rem;
@@ -241,6 +252,15 @@
     background-color: var(--cor-de-fourth);
     border: 0;
     border-radius: 5px;
+}
+
+.formcontato__botao:hover{
+  color: var(--cor-de-fourth);
+  background-color: var(--cor-de-third);
+  font-weight: bold;
+  border: 1px solid var(--cor-de-fourth);
+  transition: all 0.25s;
+  cursor: pointer;
 }
 
   @media  screen and (min-width:768px) {
@@ -281,4 +301,5 @@
     .formcontato__botao{
       padding: 14px 18px;
     }
+    
   }

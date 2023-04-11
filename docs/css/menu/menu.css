@@ -1,11 +1,14 @@
 .menu{
+    padding: 0 16px 0 16px;
+}
+.container{
     display: flex;
     justify-content: space-between;
     /* position: fixed;
     width: 100%;
     height: 56px;
     background-color: var(--cor-de-fundo); */
-    padding: 0 16px 0 16px;
+    
 }
 
 .menu__header{
@@ -34,6 +37,9 @@ nav{
 .menu__list{
     display: none;
 }
+.menu__list_{
+}
+
 
 .menu__list__item{
     color: var(--cor-de-primary);
@@ -77,6 +83,9 @@ nav{
     .menu{
         padding-left: 100px;
         padding-right: 100px; 
+    }
+    .container{
+        
         width: 100%;
         max-width: 1400px;
         box-sizing: border-box;
@@ -110,6 +119,10 @@ nav{
         font-size: 1.6rem;
         margin-top: 32px;
         margin-right: 0;
+    }
+
+    .menu__list_{
+        display: none;
     }
     
 
